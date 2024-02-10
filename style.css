@@ -1,0 +1,59 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: 'Gilroy';
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box div{
+    width:100px;
+    height: 100px;
+    
+    
+
+}
+.box div{
+    animation-name: jaishreeram;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+   
+
+@keyframes jaishreeram {
+    0%{
+    rotate: 0deg;
+    background-color:orangered;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    
+    }
+    100%{
+    rotate: 360deg;
+    background-color:orangered;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    width: 150px;
+    height: 150px;
+    }
+}
+
+
+    /* for more stage we use other method */
+    
